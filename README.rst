@@ -64,6 +64,10 @@ Features
 Changes
 -------
 
+* 1.0.1-ubuntu1604:
+
+  * Ubuntu 16.04 LTS binary wheel
+
 * 1.0.1:
 
   * Fix an issue with absolute paths that prevented the creation of wheels.
