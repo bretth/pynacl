@@ -15,6 +15,8 @@ PyNaCl is a Python binding to the `Networking and Cryptography library`_,
 a crypto library with the stated goal of improving usability, security and
 speed.
 
+This fork simply provides a binary wheel package for installation on Ubuntu 16.04 LTS.
+
 .. _Networking and Cryptography library: https://nacl.cr.yp.to/
 
 
@@ -24,6 +26,13 @@ Installation
 
 Linux
 ~~~~~
+
+To install the Ubuntu 16.04 LTS binary wheel of PyNaCL:
+
+.. code-block:: console
+    
+    $ pip3 install https://github.com/bretth/pynacl/releases/download/1.0.1-ubuntu1604/PyNaCl-1.0.1_ubuntu1604-cp35-cp35m-linux_x86_64.whl
+
 
 PyNaCl relies on libsodium_, a portable C library. A copy is bundled
 with PyNaCl so to install you can run:
